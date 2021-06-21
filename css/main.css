@@ -961,6 +961,17 @@ details{
 
 }
 
+@media(max-width:600px){
+  .pinkbg{
+    display: flex;
+    justify-content: center;
+  }
+  details {
+    margin: 7em 0;
+}
+
+}
+
 @media(max-width:555px){
   .core-elements {
     width: 496px;
