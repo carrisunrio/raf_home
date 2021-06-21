@@ -254,7 +254,7 @@ details {
 }
 .slider__contents {
   height: 100%;
-  padding: 2rem;
+  padding: 0 2rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -947,6 +947,10 @@ details {
     width: 550px;
 }
 
+.w-100 {
+  width: 100%!important;
+  height: 40vh;
+}
 
 }
 
