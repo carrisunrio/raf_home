@@ -920,4 +920,57 @@ details {
     width: 890px;
     justify-content: space-around;
 }
+
+
+}
+
+
+@media(max-width:918px){
+  .core-elements {
+    width: 767px;
+}
+
+
+}
+
+
+@media(max-width:777px){
+  .core-elements {
+    width: 650px;
+}
+
+
+}
+
+@media(max-width:666px){
+  .core-elements {
+    width: 550px;
+}
+
+
+}
+
+@media(max-width:626px){
+  .core-element {
+    width: 150px;
+}
+
+}
+
+@media(max-width:555px){
+  .core-elements {
+    width: 496px;
+}
+
+}
+
+@media(max-width:517px){
+  .core-elements {
+    width: 496px;
+}
+
+.coreElementsContainer {
+  padding-top: 15px;
+}
+
 }
