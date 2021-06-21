@@ -955,6 +955,10 @@ details {
     width: 150px;
 }
 
+details{
+  width: 350px;
+}
+
 }
 
 @media(max-width:555px){
