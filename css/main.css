@@ -974,3 +974,14 @@ details {
 }
 
 }
+
+@media(max-width:505px){
+  .core-elements {
+    width: 496px;
+}
+
+.coreElementsContainer {
+  padding-top: 15px;
+}
+
+}
