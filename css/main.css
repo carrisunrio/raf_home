@@ -6,14 +6,8 @@
 body {
   /* font-family: -apple-system, BlinkMacSystemFont; */
   box-sizing: border-box;
-  height: 100vh;
-  /* background: rgb(255, 153, 102);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 153, 102, 1) 9%,
-    rgba(255, 94, 98, 1) 83% 
-  ); */
-  background: #efd9c9;
+  /* height: 100vh; */
+  background: #faebd7;
 }
 
 .firstSection {
@@ -188,7 +182,7 @@ details {
 
 
 .slider {
-  height: 63%;
+  height: 64%;
   width: 100%;
   z-index: 100;
   position: absolute;
@@ -331,7 +325,7 @@ details {
 .bubbles {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 65vh;
   overflow: hidden;
 }
 
@@ -838,40 +832,7 @@ details {
   }
 }
 
-/*Floating Button to the top*/
-#scroll {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  background-color: #fa761f;
-  text-indent: -9999px;
-  display: none;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  z-index: 2000;
-  box-shadow: 0px 0px 13px rgb(0 0 0 / 63%);
-}
-#scroll span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -8px;
-  margin-top: -12px;
-  height: 0;
-  width: 0;
-  border: 8px solid transparent;
-  border-bottom-color: #000000;
-}
-#scroll:hover {
-  background-color: #e74c3c;
-  opacity: 1;
-  filter: "alpha(opacity=100)";
-  -ms-filter: "alpha(opacity=100)";
-}
+
 /* @-moz-keyframes animate {
   0% {
     margin-top: 20vh;
@@ -917,7 +878,7 @@ details {
   }
 } */
 .coreElementsContainer{
-  height: 50%;
+  height: 50vh;
   width: 100%;
   text-align: center;
   padding-top: 30px;
@@ -949,9 +910,14 @@ details {
 }
 
 
-
-
 .core-element img.top:hover {
   opacity:0;
 }
 
+
+@media(max-width:998px){
+  .core-elements {
+    width: 890px;
+    justify-content: space-around;
+}
+}
