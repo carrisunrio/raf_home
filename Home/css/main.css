@@ -992,6 +992,38 @@ details {
 
   }
 
+  
+
+.slider__nav {
+   
+    margin: 0 12px;
+  }
+
+  .slider__contents {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  
+.firstItem {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.slider__image{
+  height: 50px;
+    margin: auto 0;
+}
+
+.slider__caption{
+  margin: auto auto;
+}
+
+.slider__txt{
+  margin: auto;
+}
 
 }
 
