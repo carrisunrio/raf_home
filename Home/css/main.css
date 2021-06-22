@@ -930,6 +930,14 @@ details {
     width: 767px;
 }
 
+.slider-bg {
+  background: #1a1e23;
+  height: 65vh;
+}
+
+.bubble{
+  display: none;
+}
 
 }
 
