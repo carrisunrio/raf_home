@@ -297,6 +297,7 @@ details {
   color: #cccaca;
   margin-bottom: 3rem;
   max-width: 300px;
+  margin: auto;
 }
 
 @-webkit-keyframes check {
